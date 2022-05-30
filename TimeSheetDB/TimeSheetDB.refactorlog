@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="db4c277e-9a28-4f54-a687-c6bfa0658c87" ChangeDateTime="03/21/2022 00:40:35">
+    <Property Name="ElementName" Value="[dbo].[Plant].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Plant]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PlantName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="793d5a27-aa66-47a4-9331-bbb00e7fe5eb" ChangeDateTime="03/21/2022 00:56:07">
+    <Property Name="ElementName" Value="[dbo].[TimeSheet].[Staut]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TimeSheet]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Status" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="392cf595-aef9-4bd2-94d2-44eb49f5df8e" ChangeDateTime="03/21/2022 01:00:16">
+    <Property Name="ElementName" Value="[dbo].[TimeSheet_UserDetail].[UserName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TimeSheet_UserDetail]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TimeSheetId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4e6b22a4-82b1-41cf-a4b4-c291b3e133a2" ChangeDateTime="03/21/2022 01:02:06">
+    <Property Name="ElementName" Value="[dbo].[TimeSheet_UserDetail].[TotalHours on Job]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TimeSheet_UserDetail]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TotalHours" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9f16e81a-e666-4fef-9964-94881f2621e3" ChangeDateTime="03/21/2022 01:05:27">
+    <Property Name="ElementName" Value="[dbo].[TimeSheet].[CreateDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TimeSheet]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BeginDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b73baba5-6de7-435c-a5de-b77d5f074a1a" ChangeDateTime="03/21/2022 01:20:08">
+    <Property Name="ElementName" Value="[dbo].[TimeSheet].[ClientId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TimeSheet]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ClientName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7447999a-f341-41f5-a57d-cccc2b6e4246" ChangeDateTime="05/08/2022 03:05:02">
+    <Property Name="ElementName" Value="[dbo].[TimeSheet_UserDetail].[UserName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TimeSheet_UserDetail]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StaffName" />
+  </Operation>
+</Operations>
